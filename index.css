@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: rgb(226, 241, 255);
+    padding: 10px;
+    height: 60px;
+    display: flex;
+}
+
+#logo {
+    width: 20%;
+    font-size: 50px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    color: rgb(214, 13, 60);
+    font-family: 'Marck Script', cursive;
+}
+
+#logo-img {
+    background-color: rgb(226, 241, 255);
+    width: 20%;
+    margin-left: 2%;
+    margin-bottom: 100px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2); 
+    border-radius: 0 0 15px 15px;
+}
+
+#logo-img>img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+
+#information {
+    display: flex;
+    margin-left: auto;
+    padding: 5px;
+    padding-top: 10px;
+    width: 20%;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+#information-mobile {
+    display: none;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: 50px;
+    padding: 5px;
+    padding-top: 10px;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.social-text {
+    font-size: 20px;
+    height: 35px;
+    line-height: 28px;
+    padding: 5px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+.social {
+    width: 20px;
+    margin-left: 2px;
+    height: auto;
+}
+
+#instagram {
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-bottom: 7px;
+    line-height: 28px;
+}
+
+#instagram:hover {
+    background-color: rgb(128, 194, 255);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#telephone:hover {
+    background-color: rgb(128, 194, 255);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+
+#foto {
+    background-image: url('foto1.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 800px; 
+    width: 100%; 
+}
+
+#basa-otdyha {
+    width: 40%;
+    font-size: 50px;
+    background-color: rgba(241, 231, 184, 0.823);
+    margin-left: 10%;
+    padding: 20px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#basa-otdyha2 {
+    width: 45%;
+    height: 300px;
+    font-size: 25px;
+    background-color: rgba(241, 231, 184, 0.823);
+    margin-left: 10%;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+#block1 {
+    display: flex;
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 10%;
+    padding-bottom: 200px;
+}
+
+#block1-text {
+    width: 40%; 
+    text-align: center;
+    margin-top: 60px;
+}
+
+#block1-images {
+    display: flex; 
+    width: 60%;
+}
+
+.image-in-block1 {
+    width: 40%;
+    margin-left: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+
+
+#welcome {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(249, 245, 255);
+    text-align: center;
+    font-size: 34px;
+    color: rgb(65, 22, 133);
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+#welcome_abkh {
+    color: rgb(29, 5, 68);
+}
+
+
+
+
+
+#block2 {
+    background-color: rgb(249, 245, 255);
+    padding: 50px;
+}
+
+#image-to-image {
+    width: 70%;
+    height: 600px;
+    margin-left: 15%;
+    height: auto;
+    box-shadow: 15px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+#block3 {
+    width: 80%;
+    background-color: rgb(249, 245, 255);
+    margin-left: 10%;
+    padding-bottom: 100px;
+}
+
+#table-text {
+    font-size: 29px;
+    color: rgb(10, 10, 151);
+    width: 90%;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    margin-left: 5%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.text-in-colomn {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px rgba(246, 88, 104, 0.333);
+}
+
+.text-in-colomn-img {
+    width: 20%;
+    margin-left: 40%;
+    height: auto;
+    display: block;
+}
+
+.word-text {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+
+#block4 {
+    background-color: rgb(249, 245, 255);
+    width: 76%;
+    margin-left: 12%;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.text1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text11 {
+    color: rgb(225, 179, 115);
+}
+
+
+
+#block5 {
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+#content-5 {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#image-5 {
+    background-image: url('foto1.jpeg');
+    background-size: cover; 
+    width: 40%;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text1111 {
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: rgba(20, 20, 153, 0.886);
+    border-radius: 5px;
+}
+
+#text1111:hover {
+    background-color:  rgba(26, 26, 217, 0.886);;
+}
+
+#text-5 {
+    display: flex;
+    width: 50%;
+    margin-left: 10%;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+#image-5:hover {
+    opacity: 0.95;
+    cursor: pointer;
+}
+
+form {
+    height: 380px;
+}
+
+
+
+
+
+footer {
+    height: 70px;
+    color: white;
+    background-color: rgb(25, 25, 118);
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) { /* Tablet */
+    #logo {
+        margin-left: 15px;
+    }
+
+    #logo-img {
+        background-color: rgb(226, 241, 255);
+        width: 180px;
+        margin-left: 2%;
+        margin-bottom: 100px;
+        box-shadow: 0px 15px 8px rgba(0, 0, 0, 0.2); 
+        border-radius: 0 0 15px 15px;
+    }
+    
+    #logo-img>img {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+
+
+    #information {
+        display: none;
+        margin-bottom: 15px;
+    }
+
+    #information-mobile {
+        display: flex;
+    }
+
+
+
+    #block1 {
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    #block1-text {
+        width: 100%; 
+        text-align: center;
+    }
+    
+    #block1-images {
+        display: block; 
+        width: 100%;
+    }
+
+    .image-in-block1 {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #image-to-image {
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 15px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+
+
+
+    #content-5 {
+        display: block;
+    }
+
+    #image-5 {
+        width: 100%;
+    }
+
+    #text-5 {
+        width: 100%;
+        padding-top: 20px;
+        margin-left: 0;
+        justify-content: unset;
+        text-align: center;
+    }
+
+}
+
+  
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 767px) { /* Desktop */
+    #logo {
+        margin-left: 15px;
+    }
+
+    #logo-img {
+        background-color: rgb(226, 241, 255);
+        width: 180px;
+        margin-left: 2%;
+        margin-bottom: 100px;
+    }
+    
+    #logo-img>img {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+
+
+    #information {
+        display: none;
+        margin-bottom: 15px;
+    }
+
+    #information-mobile {
+        display: flex;
+        margin-top: 0;
+        margin-right: 60px;
+    }
+
+
+    
+    #basa-otdyha {
+        font-size: 25px;
+        width: 70%;
+    }
+    
+    #basa-otdyha2 {
+        font-size: 19px;
+        width: 80%;
+        margin-top: 40px;
+    }
+
+
+
+    #block1 {
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    #block1-text {
+        width: 100%; 
+        text-align: center;
+    }
+    
+    #block1-images {
+        display: block; 
+        width: 100%;
+        
+    }
+
+    .image-in-block1 {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        
+    }
+
+    #image-to-image {
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 15px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+
+
+
+
+    #block2 {
+        padding: 15px;
+        padding-top: 40px;
+    }
+    
+
+    #welcome {
+        font-size: 27px;
+    }
+
+
+    #block3 {
+        background-color: rgb(249, 245, 255);
+    }
+
+    #table-text {
+        font-size: 22px;
+    }
+
+
+
+
+    #block5 {
+        padding-top: 90px;
+    }
+
+    #content-5 {
+        display: block;
+    }
+
+    #image-5 {
+        width: 100%;
+    }
+
+    #text-5 {
+        width: 100%;
+        padding-top: 20px;
+        margin-left: 0;
+        justify-content: unset;
+        text-align: center;
+    }
+    
+}
+
