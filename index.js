@@ -36,7 +36,7 @@ function intersectionCallback(entries, observer) {
                     element2222.classList.remove('image-5_one')
                     
                     element2222.classList.add('image-5_two')
-                }, 500)
+                }, 200)
                 
             }
 
