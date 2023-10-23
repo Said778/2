@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>База отдыха "Ахьаца"</title>
+    <title>Сайт</title>
 
 
     <link rel="stylesheet" href="index.css">
@@ -14,12 +14,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
     <body>
-        <header>
-            <div id="logo">
-                Ахьаца
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(226, 241, 255); width: 100%;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" id='logo' href="#">Ахьаца</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <div class="social-text">
+                            О нас
+                        </div>
+                        <div class="social-text">
+                            Галерея
+                        </div>
+                        <div id="instagram" class="social-text">
+                            otel_instagram<img class='social'  src="instagram.png"/>
+                        </div>
+                        <div id="telephone" class="social-text">
+                            +7(940) 999-66-99
+                            <img class='social'  src="whatsapp.png"/>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
 
-            <div id="information" class="social-text">
+            <!-- <div id="information" class="social-text">
                 <div id="instagram">
                     otel_instagram<img class='social'  src="instagram.png"/>
                 </div>
@@ -50,12 +72,12 @@
                     </ul>
                     </li>
                 </ul>
-            </div>
-        </header> 
+            </div> -->
         <main>
             <div id="foto">
                 <div id="logo-img">
-                    <img src="tree11.png"/>
+                    <img id='logo-img-img' src="tree11.png"/>
+                    <img id='information-img' src="info.png"/>
                 </div>
                 <div id="basa-otdyha">
                     База отдыха "Ахьаца"
@@ -73,7 +95,7 @@
             </div>
 
             <div id="block1">
-                <div id="block1-text">
+                <div id="block1-text" class="block1-text_one">
                     <h1>О нас</h1>
                     <p>
                         База отдыха <span style="color: rgba(174, 105, 105, 0.733);">"Ахьаца"</span> расположена в лучшем месте. Мы предоставляем 
@@ -185,20 +207,21 @@
                             <div class="col-sm text-in-colomn">
                                 <div>
                                     <img src="wifi-signal.png" alt="" class="text-in-colomn-img">
-                                    <div class="word-text">...</div> 
-                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, assumenda.</span>
+                                    <div class="word-text">Трансфер</div> 
+                                    <span>Трансфер от границы Республики Абхазия на реке Псоу до места проживания</span>
                                 </div>
                             </div>
                             <div class="col-sm text-in-colomn">
                                 <div>
                                     <img src="oversized-wine-glass.png" alt="" class="text-in-colomn-img">
-                                    <div class="word-text">...</div> 
-                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, assumenda.</span>
+                                    <div class="word-text">Мангальная зона</div> 
+                                    <span></span>
                                 </div>
                             </div>
                     </div>
                 </div>
             </div>
+
 
             <div id="block4">
                 <div class="accordion" id="accordionExample">
@@ -250,7 +273,7 @@
 
             <div id="block5">
                 <div id="content-5">
-                    <div id="image-5">
+                    <div id="image-5" class="image-5_one">
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="text1111">
                             Забронировать
                         </button>
@@ -273,9 +296,21 @@
                         <h5 class="modal-title" id="exampleModalLabel">Бронирование</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body"  style="height: 500px;">
                         <form action="">
-                            Здесь будет форма для бронирования 
+                            C <input type="date">
+                            до <input type="date"> <br> <br>
+
+                            <label for="telephone1">Телефон</label> <br> 
+                            <input placeholder="Ваш телефон" id="telephone1"> <br> <br> 
+
+                            <label for="email1">Email</label> <br>
+                            <input placeholder="Необязательно"> <br> <br> 
+
+                            <label for="text-area1">Сообщение</label> <br>
+                            <textarea style="width: 310px; height: 150px;" id="text-area1" placeholder="Ваше сообщение(необязательно)"></textarea> <br> <br>
+
+                            <button>Забронировать</button>
                         </form>
                     </div>
                     </div>
@@ -283,9 +318,23 @@
             </div>
         </main>
 
-        <footer>
-            <div>
-                Контакты... Номер телефона... Дополнительная информация... 
+        <footer style="display: flex;">
+            <div id="information6666">
+                <div>
+                    ИП Сабуа 
+                </div>
+                <div>
+                    Все права защищены
+                </div>
+            </div>
+            <div style="width: 20%; min-width: 220px" >
+                <div id="instagram" class="social-text">
+                    otel_instagram<img class='social'  src="instagram2.png"/>
+                </div>
+                <div id="telephone" class="social-text">
+                    +7(940) 999-66-99
+                    <img class='social'  src="whatsapp2.png"/>
+                </div>
             </div>
         </footer>
 
