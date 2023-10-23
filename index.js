@@ -29,7 +29,7 @@ function intersectionCallback(entries, observer) {
 
                 observer.unobserve(entry.target);
             }, 200);
-            } else if(entry.target.id === 'text-5') {
+            } else if(entry.target.id === 'block5') {
                 setTimeout(() => {
                     const element2222 = document.getElementById('image-5')
 
@@ -51,7 +51,7 @@ const observer = new IntersectionObserver(intersectionCallback);
 
 
 const element1 = document.getElementById('block1-images');
-const element2 = document.getElementById('text-5');
+const element2 = document.getElementById('block5');
 
 
 if (element1) {
